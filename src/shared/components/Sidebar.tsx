@@ -1,3 +1,5 @@
+import '../../assets/CSS/Sidebar.css'
+
 const Sidebar = () => {
     return (
         <section>

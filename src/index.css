@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+*{
+    box-sizing: border-box;
+    font-family: 'Google Sans', Tahoma, Geneva, Verdana, sans-serif;
+}
