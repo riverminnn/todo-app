@@ -10,7 +10,7 @@ const Header = () => {
     };
     return (
         <header>
-            <div className="header-container w-full flex justify-center shadow-md">
+            <div className="header-container w-full flex justify-center shadow-md z-1">
                 <nav className="nav-bar flex justify-between w-4/5">
                     <Link to='/' className='flex gap-4 items-center'>
                         <img src={Logo} alt='logo'></img>
