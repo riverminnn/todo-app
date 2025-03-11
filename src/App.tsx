@@ -3,8 +3,10 @@ import './App.css'
 import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
-import Layout from './shared/layouts/Layout'
 import Todo from './pages/Todo'
+import Layout from './shared/layouts/Layout'
+import ManagerLayout from './shared/layouts/ManagerLayout'
+import Dashboard from './pages/Dashboard'
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
         <Route path='/about' element={<Layout><About /></Layout>}></Route>
         <Route path='/contact' element={<Layout><Contact /></Layout>}></Route>
         <Route path='/todo' element={<Layout><Todo/></Layout>}></Route>
+        <Route path='/dashboard' element={<ManagerLayout><Dashboard/></ManagerLayout>}></Route>
       </Routes>
     </BrowserRouter>
   )

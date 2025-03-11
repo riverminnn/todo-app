@@ -1,6 +1,14 @@
+import { useNavigate } from "react-router-dom";
+
 const Home = () => {
+    const navigate = useNavigate();
+
     return (
-        <h1>Home</h1>
+        <section>
+            <button type="button" onClick={() => navigate('/about')}>
+                Continue to About
+            </button>
+        </section>
     )
 }
 
