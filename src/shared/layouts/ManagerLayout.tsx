@@ -9,7 +9,7 @@ const Layout = ({ children }: { children: ReactNode }) => {
             <Header />
             <main className="flex-grow">
                 <Sidebar />
-                <div className="main-content ml-12 md:ml-64">
+                <div className="main-content ml-64">
                     {children}
                     <Footer />
                 </div>

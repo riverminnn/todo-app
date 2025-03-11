@@ -32,7 +32,7 @@ const Sidebar = () => {
     }, []);
 
     return (
-        <aside className={`flex flex-col bg-white border-t-1 border-r-1 border-[#c2c2c2] h-[calc(100vh-64px)] absolute top-16 left-0 ${isExpanded ? "w-64" : "w-12"}`}>
+        <aside className={`flex flex-col bg-white border-t-1 border-r-1 border-[#c2c2c2] h-screen absolute top-16 left-0 ${isExpanded ? "w-64" : "w-12"}`}>
             <div className="sidebar-top">
                 <Link to={"/dashboard"} className="border-b border-slate-100 hover:bg-[#33adff] flex items-center">
                     <FontAwesomeIcon icon={faDashboard} className="p-4 min-w-4" />

@@ -10,8 +10,8 @@ const Footer = () => {
         <div className="flex border-b border-gray-300 pb-4">
           <div className="flex-1">
             <div className="flex items-center">
-              <img src={Logo} alt="logo" className="w-18 mr-4" />
-              <h1 className="text-2xl font-medium">Quizzes</h1>
+              <img src={Logo} alt="logo" className="size-12 mr-4" />
+              <h1 className="text-2xl font-medium">Todo</h1>
             </div>
 
             <p className="max-w-[400px] text-sm">

@@ -9,8 +9,8 @@ const Header = () => {
         setIsShowProfile(!isShowProfile);
     };
     return (
-        <header>
-            <div className="header-container w-full flex justify-center shadow-md">
+        <header className="">
+            <div className="header-container w-full flex justify-center shadow-md relative z-10">
                 <nav className="nav-bar flex justify-between w-4/5">
                     <Link to='/' className='flex gap-4 items-center'>
                         <img src={Logo} alt='logo'></img>
